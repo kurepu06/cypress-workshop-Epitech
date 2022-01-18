@@ -66,7 +66,7 @@ Even though we haven't written any tests yet - that's okay - let's click on samp
 ```javascript
 describe('My First Test', () => {
   it('Visits the Kitchen Sink', () => {
-    cy.visit('https://your-web-site.com')
+    cy.visit('https://example.cypress.io')
   })
 })
 ```
@@ -75,7 +75,7 @@ describe('My First Test', () => {
 ```javascript
 describe('My First Test', () => {
   it('Visits the Kitchen Sink', () => {
-    cy.visit('https://your-web-site.com')
+    cy.visit('https://example.cypress.io')
     
     cy.contains('type')
   })
@@ -86,7 +86,7 @@ describe('My First Test', () => {
 ```javascript
 describe('My First Test', () => {
   it('Visits the Kitchen Sink', () => {
-    cy.visit('https://your-web-site.com')
+    cy.visit('https://example.cypress.io')
     
     cy.contains('type').click()
   })
@@ -97,7 +97,7 @@ describe('My First Test', () => {
 ```javascript
 describe('My First Test', () => {
   it('Visits the Kitchen Sink', () => {
-    cy.visit('https://your-web-site.com')
+    cy.visit('https://example.cypress.io')
     
     cy.contains('type').click()
 
